@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/unidades",
+      "handler": "Unidades.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/unidades/:id",
+      "handler": "Unidades.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/unidades",
+      "handler": "Unidades.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/unidades/:id",
+      "handler": "Unidades.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/unidades/:id",
+      "handler": "Unidades.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/unidades/:id/relationships/:relation",
+      "handler": "Unidades.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/unidades/:id/relationships/:relation",
+      "handler": "Unidades.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/unidades/:id/relationships/:relation",
+      "handler": "Unidades.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

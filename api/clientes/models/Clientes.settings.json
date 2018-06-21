@@ -1,0 +1,79 @@
+{
+  "connection": "default",
+  "collectionName": "clientes",
+  "info": {
+    "name": "clientes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "descricao": {
+      "multiple": false,
+      "type": "string"
+    },
+    "telefone": {
+      "multiple": false,
+      "type": "string"
+    },
+    "logradouro": {
+      "multiple": false,
+      "type": "string"
+    },
+    "bairro": {
+      "multiple": false,
+      "type": "string"
+    },
+    "numero": {
+      "multiple": false,
+      "type": "integer"
+    },
+    "cidade": {
+      "multiple": false,
+      "type": "string"
+    },
+    "estado": {
+      "multiple": false,
+      "type": "string"
+    },
+    "cep": {
+      "multiple": false,
+      "type": "string"
+    },
+    "documento": {
+      "multiple": false,
+      "type": "string"
+    },
+    "referencia": {
+      "multiple": false,
+      "type": "string"
+    },
+    "aniversario": {
+      "multiple": false,
+      "type": "string"
+    },
+    "email": {
+      "multiple": false,
+      "type": "email"
+    },
+    "celular": {
+      "multiple": false,
+      "type": "string"
+    },
+    "edificio": {
+      "multiple": false,
+      "type": "string"
+    },
+    "complemento": {
+      "multiple": false,
+      "type": "string"
+    },
+    "deleted": {
+      "multiple": false,
+      "type": "boolean"
+    }
+  }
+}

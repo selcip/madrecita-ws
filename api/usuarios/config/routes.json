@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/usuarios",
+      "handler": "Usuarios.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usuarios/:id",
+      "handler": "Usuarios.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usuarios",
+      "handler": "Usuarios.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usuarios/:id",
+      "handler": "Usuarios.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usuarios/:id",
+      "handler": "Usuarios.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usuarios/:id/relationships/:relation",
+      "handler": "Usuarios.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usuarios/:id/relationships/:relation",
+      "handler": "Usuarios.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usuarios/:id/relationships/:relation",
+      "handler": "Usuarios.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

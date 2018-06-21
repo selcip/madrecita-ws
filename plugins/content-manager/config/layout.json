@@ -1,0 +1,197 @@
+{
+  "caucoes": {
+    "attributes": {
+      "descricao": {
+        "appearance": ""
+      },
+      "valor": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  },
+  "centros_producao": {
+    "attributes": {
+      "descricao": {
+        "appearance": ""
+      },
+      "produtivo": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  },
+  "clientes": {
+    "attributes": {
+      "descricao": {
+        "appearance": ""
+      },
+      "telefone": {
+        "appearance": ""
+      },
+      "logradouro": {
+        "appearance": ""
+      },
+      "bairro": {
+        "appearance": ""
+      },
+      "numero": {
+        "appearance": ""
+      },
+      "cidade": {
+        "appearance": ""
+      },
+      "estado": {
+        "appearance": ""
+      },
+      "cep": {
+        "appearance": ""
+      },
+      "cnpj": {
+        "appearance": ""
+      },
+      "referencia": {
+        "appearance": ""
+      },
+      "aniversario": {
+        "appearance": ""
+      },
+      "email": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      },
+      "celular": {
+        "appearance": ""
+      },
+      "complemento": {
+        "appearance": ""
+      },
+      "edificio": {
+        "appearance": ""
+      },
+      "documento": {
+        "appearance": ""
+      }
+    }
+  },
+  "produtos": {
+    "attributes": {
+      "preco_unidade": {
+        "appearance": ""
+      },
+      "descricao": {
+        "appearance": ""
+      },
+      "preparo": {
+        "appearance": ""
+      },
+      "rendimento": {
+        "appearance": ""
+      },
+      "custo_total": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  },
+  "unidades": {
+    "attributes": {
+      "descricao": {
+        "appearance": ""
+      },
+      "abreviacao": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  },
+  "veiculos": {
+    "attributes": {
+      "placa": {
+        "appearance": ""
+      },
+      "descricao": {
+        "appearance": ""
+      },
+      "vencimento_ipva": {
+        "appearance": ""
+      },
+      "chassi": {
+        "appearance": ""
+      },
+      "vencimento_seguro": {
+        "appearance": ""
+      },
+      "firma_seguro": {
+        "appearance": ""
+      },
+      "apolice": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  },
+  "motoristas": {
+    "attributes": {
+      "nome": {
+        "appearance": ""
+      },
+      "cnh": {
+        "appearance": ""
+      },
+      "vencimento": {
+        "appearance": ""
+      },
+      "descricao": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  },
+  "centrosProducao": {
+    "attributes": {
+      "descricao": {
+        "appearance": ""
+      },
+      "produtivo": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  },
+  "usuarios": {
+    "attributes": {
+      "usuario": {
+        "appearance": ""
+      },
+      "nome": {
+        "appearance": ""
+      },
+      "senha": {
+        "appearance": ""
+      },
+      "nivel": {
+        "appearance": ""
+      },
+      "deleted": {
+        "appearance": ""
+      }
+    }
+  }
+}

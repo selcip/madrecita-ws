@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "usuarios",
+  "info": {
+    "name": "usuarios",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "usuario": {
+      "multiple": false,
+      "type": "string"
+    },
+    "nome": {
+      "multiple": false,
+      "type": "string"
+    },
+    "nivel": {
+      "multiple": false,
+      "type": "integer"
+    },
+    "deleted": {
+      "multiple": false,
+      "type": "boolean"
+    },
+    "senha": {
+      "multiple": false,
+      "type": "password"
+    }
+  }
+}

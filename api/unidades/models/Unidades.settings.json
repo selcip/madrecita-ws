@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "unidades",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "descricao": {
+      "multiple": false,
+      "type": "string"
+    },
+    "abreviacao": {
+      "multiple": false,
+      "type": "string"
+    },
+    "deleted": {
+      "multiple": false,
+      "type": "boolean"
+    },
+    "produto_unidade": {
+      "collection": "produtos",
+      "via": "unidade"
+    }
+  }
+}

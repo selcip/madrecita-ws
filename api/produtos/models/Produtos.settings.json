@@ -1,0 +1,53 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "produtos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "descricao": {
+      "multiple": false,
+      "type": "string"
+    },
+    "preco_unidade": {
+      "multiple": false,
+      "type": "decimal"
+    },
+    "rendimento": {
+      "multiple": false,
+      "type": "integer"
+    },
+    "custo_total": {
+      "multiple": false,
+      "type": "decimal"
+    },
+    "preparo": {
+      "multiple": false,
+      "type": "text"
+    },
+    "deleted": {
+      "multiple": false,
+      "type": "boolean"
+    },
+    "caucao": {
+      "model": "caucoes",
+      "via": "produtos_caucao"
+    },
+    "centro_producao": {
+      "model": "centrosproducao",
+      "via": "produto_centro",
+      "plugin": ""
+    },
+    "unidade": {
+      "model": "unidades",
+      "via": "produto_unidade",
+      "plugin": ""
+    }
+  }
+}

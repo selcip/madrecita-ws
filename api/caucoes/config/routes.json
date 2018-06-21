@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/caucoes",
+      "handler": "Caucoes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/caucoes/:id",
+      "handler": "Caucoes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/caucoes",
+      "handler": "Caucoes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/caucoes/:id",
+      "handler": "Caucoes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/caucoes/:id",
+      "handler": "Caucoes.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/caucoes/:id/relationships/:relation",
+      "handler": "Caucoes.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/caucoes/:id/relationships/:relation",
+      "handler": "Caucoes.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/caucoes/:id/relationships/:relation",
+      "handler": "Caucoes.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/centrosproducao",
+      "handler": "Centrosproducao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/centrosproducao/:id",
+      "handler": "Centrosproducao.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/centrosproducao",
+      "handler": "Centrosproducao.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/centrosproducao/:id",
+      "handler": "Centrosproducao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/centrosproducao/:id",
+      "handler": "Centrosproducao.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/centrosproducao/:id/relationships/:relation",
+      "handler": "Centrosproducao.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/centrosproducao/:id/relationships/:relation",
+      "handler": "Centrosproducao.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/centrosproducao/:id/relationships/:relation",
+      "handler": "Centrosproducao.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

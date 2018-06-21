@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "caucoes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "descricao": {
+      "multiple": false,
+      "type": "string"
+    },
+    "valor": {
+      "multiple": false,
+      "type": "decimal"
+    },
+    "deleted": {
+      "multiple": false,
+      "type": "boolean"
+    },
+    "produtos_caucao": {
+      "collection": "produtos",
+      "via": "caucao"
+    }
+  }
+}

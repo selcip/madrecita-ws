@@ -1,0 +1,68 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/produtos",
+      "handler": "Produtos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/produtos/:id",
+      "handler": "Produtos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/produtos",
+      "handler": "Produtos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/produtos/:id",
+      "handler": "Produtos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/produtos/:id",
+      "handler": "Produtos.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/produtos/:id/relationships/:relation",
+      "handler": "Produtos.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/produtos/:id/relationships/:relation",
+      "handler": "Produtos.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/produtos/:id/relationships/:relation",
+      "handler": "Produtos.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
